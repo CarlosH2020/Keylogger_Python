@@ -15,7 +15,11 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
-from loginsenha import passwd, fromaddr, toaddr
+
+
+fromaddr = "Seu Email"
+toaddr = "Seu Email"
+passwd = "Sua Senha do Email"
 
 # Cria pasta com as IMG
 try:
